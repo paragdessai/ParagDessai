@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parag Dessai - Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1a1a1a url('https://www.wallpapertip.com/wmimgs/66-666819_website-design-background-creative-background-image-for-website.jpg') center/cover fixed no-repeat;
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em; /* Updated padding to make the header smaller */
+        }
+
+        nav {
+            text-align: center;
+            background-color: #282c35;
+            padding: 1em 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #61dafb;
+        }
+
+        section {
+            color: #fff;
+            margin: 20px 0;
+        }
+
+        section img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        h1, h2, h3 {
+            color: #61dafb;
+        }
+
+        .card {
+            background-color: rgba(40, 44, 53, 0.8);
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto; /* Updated to center horizontally */
+            max-width: 600px; /* Adjust the max-width as needed */
+            box-sizing: border-box;
+        }
+
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-icons li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-icons i {
+            font-size: 30px;
+            color: #61dafb;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-icons i:hover {
+            color: #1c7ed6;
+        }
+
+        /* Two-column layout for About Me section */
+        .about-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .about-image {
+            width: 25%;
+            box-sizing: border-box;
+        }
+
+        .about-content {
+            width: 70%;
+            box-sizing: border-box;
+        }
+
+        /* Two-column layout for Work Experience, Skills, and Find me on sections */
+        .two-column-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .two-column-item {
+            width: 25%;
+            box-sizing: border-box;
+        }
+
+        .two-column-content {
+            width: 75%;
+            box-sizing: border-box;
+        }
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            /* Adjusting the two-column layout for smaller screens */
+            .about-container, .two-column-container {
+                flex-direction: column;
+            }
+
+            .about-image, .about-content, .two-column-item, .two-column-content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Parag Dessai</h1>
+        <p>Digital Transformation Leader</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#workexperience">Work Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#findmeon">Find me on</a>
+    </nav>
+
+    <section id="about" class="card about-container">
+        <div class="about-image">
+            <img src="https://media.licdn.com/dms/image/D4E03AQF27jgAgmuBdg/profile-displayphoto-shrink_800_800/0/1682683874187?e=1712793600&v=beta&t=eOIBkh1rLFXMmPjYVTcjoaaL9pe--jxr5Yy9-tlXH1o" alt="Your Name" width="200">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                ​Trusted advisor and Technology executive with over 17+ years of experience helping financial services customers with their digital transformation journey to drive revenue growth and enhance end user experience. I am passionate about implementing emerging technologies like AI & Low Code to drive successful outcomes for banks and capital market customers. I am also an active speaker on topics related to AI, low code and enabling digital transformation for Financial Services and have delivered sessions and workshops at multiple conferences.
+            </p>
+            <p>
+                Feel free to reach out to me at paragdessai@yahoo.com
+            </p>
+        </div>
+    </section>
+
+    <section id="workexperience" class="card two-column-container">
+        <div class="two-column-item"></div>
+        <div class="two-column-content">
+            <h2>Work Experience</h2>
+            <p>
+                <br>Microsoft<br/> 
+				Helping large strategic banking and capital markets customers innovate and transform their business with low code(Power Platform/Dynamics) and Azure AI.
+            </p>
+			<p>
+               <br>  Unqork <br/> 
+               Client Partner helping banking and capital markets clients build and scale enterprise applications on no code Unqork platform to improve customer experience and automate their operations processes using Unqork’s no-code platform and other emerging technologies.
+            </p>
+			<p>
+                <br> IBM<br/> 
+ 
+              Leader within Digital Banking service line at IBM Consulting to help fortune 500 clients with all aspects of digital banking transformation and hyper-automating banking processes using Low Code technologies to make them more customer centric while reducing the operational cost for banks using cognitive automation technologies.
+            </p>
+			<p>
+                <br>KPMG LLP<br/> 
+              Senior Director leading Intelligent Automation Service line helping financial services clients with their digital transformation journey.
+            </p>
+			<p>
+                <br>Walmart<br/> 
+              Senior Technology Consultant for Information System Division at Walmart.
+            </p>
+			
+			<p>
+                <br>Compucom<br/> 
+              System Engineer leading custom development engagements for Financial service customers.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="card two-column-container">
+        <div class="two-column-item"></div>
+        <div class="two-column-content">
+            <h2>Skills</h2>
+            <p>
+				<br>- Azure AI<br/> 
+				 <br>- Conversational AI(Copilot Studio, Kore.AI, DiagloFlow, Amazon Lex)<br/> 
+                <br>- Low Code (Power Apps,Power Pages, Appian, Pega, Unqork)<br/> 
+              <br>- RPA (Power Automate, UiPath)<br/> 
+			  <br>- Process & Task Mining(Power Automate, Celonis)<br/> 
+			 <br>- Technology Assessment<br/> 
+			  <br>- Responsible AI COE Setup & Assessment<br/> 
+            </p>
+        </div>
+    </section>
+
+    <section id="findmeon" class="card two-column-container">
+        <div class="two-column-item"></div>
+        <div class="two-column-content">
+            <h2>Find me on</h2>
+            <ul class="social-icons">
+                <li><a href="https://twitter.com/ParagDessai" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/paragdessai" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+				<li><a href="https://medium.com/@paragdesai123" target="_blank"><i class="fab fa-medium-m"></i></a></li>
+				<li><a href="https://www.youtube.com/channel/UCmWG30_ihjYu3h2O4m11tkA" target="_blank"><i class="fab fa-youtube"></i></a></li>
+				
+                <!-- Add more social media icons as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        // Add any additional scripts or interactivity here
+    </script>
+
+</body>
+</html>
