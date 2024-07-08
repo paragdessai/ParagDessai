@@ -87,12 +87,12 @@
         /* Two-column layout for About Me section */
         .about-container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            align-items: center; /* Align items vertically center */
         }
 
         .about-image {
-            width: 25%;
+            width: 30%;
+            padding-right: 20px;
             box-sizing: border-box;
         }
 
@@ -135,6 +135,11 @@
             .about-image, .about-content, .two-column-item, .two-column-content {
                 width: 100%;
             }
+
+            .about-image {
+                padding-right: 0;
+                margin-bottom: 20px; /* Add space between image and content on smaller screens */
+            }
         }
     </style>
 </head>
@@ -154,7 +159,7 @@
 
     <section id="about" class="card about-container">
         <div class="about-image">
-            <img src="https://media.licdn.com/dms/image/D4E03AQF27jgAgmuBdg/profile-displayphoto-shrink_400_400/0/1682683874187?e=1726099200&v=beta&t=lrmgLEMHm5_jt5HAEZSKCWwMYbPmapuhcIKNe1_hFEc>
+            <img src="https://media.licdn.com/dms/image/D4E03AQF27jgAgmuBdg/profile-displayphoto-shrink_400_400/0/1682683874187?e=1726099200&v=beta&t=lrmgLEMHm5_jt5HAEZSKCWwMYbPmapuhcIKNe1_hFEc" alt="Parag Dessai">
         </div>
         <div class="about-content">
             <h2>About Me</h2>
@@ -173,27 +178,27 @@
             <h2>Work Experience</h2>
             <p>
                 <br>Microsoft<br/> 
-				Helping large strategic banking and capital markets customers innovate and transform their business with low code(Power Platform/Dynamics) and Azure AI.
+                Helping large strategic banking and capital markets customers innovate and transform their business with low code(Power Platform/Dynamics) and Azure AI.
             </p>
-			<p>
+            <p>
                <br>  Unqork <br/> 
                Client Partner helping banking and capital markets clients build and scale enterprise applications on no code Unqork platform to improve customer experience and automate their operations processes using Unqork’s no-code platform and other emerging technologies.
             </p>
-			<p>
+            <p>
                 <br> IBM<br/> 
  
               Leader within Digital Banking service line at IBM Consulting to help fortune 500 clients with all aspects of digital banking transformation and hyper-automating banking processes using Low Code technologies to make them more customer centric while reducing the operational cost for banks using cognitive automation technologies.
             </p>
-			<p>
+            <p>
                 <br>KPMG LLP<br/> 
               Senior Director leading Intelligent Automation Service line helping financial services clients with their digital transformation journey.
             </p>
-			<p>
+            <p>
                 <br>Walmart<br/> 
               Senior Technology Consultant for Information System Division at Walmart.
             </p>
-			
-			<p>
+            
+            <p>
                 <br>Compucom<br/> 
               System Engineer leading custom development engagements for Financial service customers.
             </p>
@@ -205,15 +210,15 @@
         <div class="two-column-content">
             <h2>Skills</h2>
             <p>
-				<br>- Cloud Solutions (Azure & AWS)<br/> 
-		    		<br>- Data & AI (Azure AI) <br/> 
-		                <br>- Banking Core Modernization<br/> 
-				 <br>- Conversational AI(Copilot Studio, Kore.AI, DialogFlow, Amazon Lex)<br/> 
+                <br>- Cloud Solutions (Azure & AWS)<br/> 
+                    <br>- Data & AI (Azure AI) <br/> 
+                        <br>- Banking Core Modernization<br/> 
+                 <br>- Conversational AI(Copilot Studio, Kore.AI, DialogFlow, Amazon Lex)<br/> 
                 <br>- Low Code (Power Apps,Power Pages, Appian, Pega, Unqork)<br/> 
               <br>- RPA (Power Automate, UiPath)<br/> 
-			  <br>- Process & Task Mining(Power Automate, Celonis)<br/> 
-			 <br>- Technology Assessment<br/> 
-			  <br>- Responsible AI COE Setup & Assessment<br/> 
+              <br>- Process & Task Mining(Power Automate, Celonis)<br/> 
+             <br>- Technology Assessment<br/> 
+              <br>- Responsible AI COE Setup & Assessment<br/> 
             </p>
         </div>
     </section>
@@ -225,9 +230,9 @@
             <ul class="social-icons">
                 <li><a href="https://twitter.com/ParagDessai" target="_blank"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/paragdessai" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-				<li><a href="https://medium.com/@paragdesai123" target="_blank"><i class="fab fa-medium-m"></i></a></li>
-				<li><a href="https://www.youtube.com/channel/UCmWG30_ihjYu3h2O4m11tkA" target="_blank"><i class="fab fa-youtube"></i></a></li>
-				
+                <li><a href="https://medium.com/@paragdesai123" target="_blank"><i class="fab fa-medium-m"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCmWG30_ihjYu3h2O4m11tkA" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                
                 <!-- Add more social media icons as needed -->
             </ul>
         </div>
